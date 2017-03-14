@@ -30,6 +30,20 @@
 			<Item Name="Sample 5 - Properties.vi" Type="VI" URL="../SMARACT/Examples/Sample 5 - Properties.vi"/>
 			<Item Name="Sample 6 - MoveLoop.vi" Type="VI" URL="../SMARACT/Examples/Sample 6 - MoveLoop.vi"/>
 		</Item>
+		<Item Name="IO" Type="Folder">
+			<Item Name="typedefs" Type="Folder">
+				<Item Name="input.ctl" Type="VI" URL="../IO/input.ctl"/>
+				<Item Name="output.ctl" Type="VI" URL="../IO/output.ctl"/>
+			</Item>
+			<Item Name="private" Type="Folder">
+				<Item Name="measureDigitalInput.vi" Type="VI" URL="../IO/measureDigitalInput.vi"/>
+				<Item Name="setDigitalOutput.vi" Type="VI" URL="../IO/setDigitalOutput.vi"/>
+			</Item>
+			<Item Name="public" Type="Folder">
+				<Item Name="input_fgv.vi" Type="VI" URL="../IO/input_fgv.vi"/>
+				<Item Name="output_fgv.vi" Type="VI" URL="../IO/output_fgv.vi"/>
+			</Item>
+		</Item>
 		<Item Name="SA driver" Type="Folder">
 			<Item Name="typedefs" Type="Folder">
 				<Item Name="sa commands.ctl" Type="VI" URL="../SA driver/sa commands.ctl"/>
@@ -193,6 +207,14 @@
 				<Item Name="SA_GetAngle_A.vi" Type="VI" URL="/&lt;vilib&gt;/SmarAct/MCS/Asynchronous/SA_GetAngle_A.vi"/>
 				<Item Name="SA_GetPosition_A.vi" Type="VI" URL="/&lt;vilib&gt;/SmarAct/MCS/Asynchronous/SA_GetPosition_A.vi"/>
 				<Item Name="SA_GetClosedLoopMoveSpeed_A.vi" Type="VI" URL="/&lt;vilib&gt;/SmarAct/MCS/Asynchronous/SA_GetClosedLoopMoveSpeed_A.vi"/>
+				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
+				<Item Name="DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
+				<Item Name="DAQmx Create Channel (DI-Digital Input).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DI-Digital Input).vi"/>
+				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
+				<Item Name="DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Digital 1D Bool 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Create Channel (DO-Digital Output).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DO-Digital Output).vi"/>
 			</Item>
 			<Item Name="MCSControl.dll" Type="Document" URL="MCSControl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
