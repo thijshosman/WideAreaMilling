@@ -125,6 +125,7 @@
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="calculateTableSimpleSerpentine.vi" Type="VI" URL="../helper/calculateTableSimpleSerpentine.vi"/>
+			<Item Name="Graph As Chart.vi" Type="VI" URL="../support/Graph As Chart.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
