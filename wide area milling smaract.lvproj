@@ -70,6 +70,7 @@
 		<Item Name="Main" Type="Folder">
 			<Item Name="typedefs" Type="Folder">
 				<Item Name="test state machine.ctl" Type="VI" URL="../SA driver/test state machine.ctl"/>
+				<Item Name="state_machine_maincontrol.ctl" Type="VI" URL="../SA driver/state_machine_maincontrol.ctl"/>
 				<Item Name="state_machine.ctl" Type="VI" URL="../SA driver/state_machine.ctl"/>
 			</Item>
 			<Item Name="wide milling control.vi" Type="VI" URL="../Main App/wide milling control.vi"/>
