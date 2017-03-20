@@ -120,13 +120,13 @@
 			<Item Name="example async loop.vi" Type="VI" URL="../thijs test/example async loop.vi"/>
 			<Item Name="example async wait for stop.vi" Type="VI" URL="../thijs test/example async wait for stop.vi"/>
 			<Item Name="example sending synchronous commands.vi" Type="VI" URL="../thijs test/example sending synchronous commands.vi"/>
-			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Untitled 2.vi" Type="VI" URL="../helper/Untitled 2.vi"/>
 			<Item Name="Untitled 3.vi" Type="VI" URL="../helper/Untitled 3.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="calculateTableSimpleSerpentine.vi" Type="VI" URL="../helper/calculateTableSimpleSerpentine.vi"/>
-			<Item Name="Graph As Chart.vi" Type="VI" URL="../support/Graph As Chart.vi"/>
+			<Item Name="Graph As Chart.vi" Type="VI" URL="../helper/Graph As Chart.vi"/>
+			<Item Name="rotationMatrix.vi" Type="VI" URL="../helper/rotationMatrix.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -396,6 +396,7 @@
 				<Item Name="DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="MCSControl.dll" Type="Document" URL="MCSControl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -403,6 +404,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
@@ -429,7 +431,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/old/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
